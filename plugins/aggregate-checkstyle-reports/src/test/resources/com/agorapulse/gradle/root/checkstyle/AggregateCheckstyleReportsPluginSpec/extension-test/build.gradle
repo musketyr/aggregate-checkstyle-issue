@@ -1,0 +1,13 @@
+plugins {
+    id 'com.agorapulse.gradle.aggregate-checkstyle-reports'
+}
+
+checkstyle {
+    toolVersion = '8.27'
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}

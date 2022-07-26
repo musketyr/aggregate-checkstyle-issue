@@ -1,0 +1,10 @@
+config {
+    plugins {
+        plugin {
+            name = 'AggregateCheckstylePlugin'
+            id = 'com.agorapulse.gradle.aggregate-checkstyle-reports'
+            implementationClass = 'com.agorapulse.gradle.root.checkstyle.AggregateCheckstyleReportsPlugin'
+            tags = ['root', 'checkstyle']
+        }
+    }
+}
